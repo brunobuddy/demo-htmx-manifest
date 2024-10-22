@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "description": "A project made with Manifest",
   "scripts": {
+    "serve-html": "node main.js",
+    "dev": "concurrently \"npm run serve-html\" \"npm run manifest\"",
     "manifest": "node node_modules/manifest/scripts/watch/watch.js",
     "manifest:seed": "node node_modules/manifest/dist/manifest/src/seed/scripts/seed.js"
   },
   "dependencies": {
-    "manifest": "^4.0.4"
+    "manifest": "^4.0.4",
+    "concurrently": "^9.0.1"
   }
 }
