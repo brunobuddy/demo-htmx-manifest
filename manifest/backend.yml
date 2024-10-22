@@ -1,4 +1,4 @@
-name: My pet app
+name: Newsletter Backend 💌
 entities:
   Subscribers:
     properties:
