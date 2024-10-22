@@ -1,0 +1,6 @@
+name: My pet app
+entities:
+  Subscribers:
+    properties:
+      - { name: name, type: string }
+      - { name: email, type: email }
